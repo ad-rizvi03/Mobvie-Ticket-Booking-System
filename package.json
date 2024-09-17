@@ -1,0 +1,45 @@
+{
+    "name": "movie-booking-system",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "start": "react-scripts start",   
+      "build": "react-scripts build",   
+      "test": "react-scripts test",    
+      "eject": "react-scripts eject"  },
+    "dependencies": {
+      "react": "^17.0.2",               
+      "react-dom": "^17.0.2",          
+      "axios": "^0.24.0",               
+      "react-router-dom": "^5.3.0",    
+      "dotenv": "^16.0.0", 
+      "eslint": "^8.0.0",
+      "eslint-config-react-app": "^6.0.0",
+      "@babel/plugin-proposal-private-property-in-object": "^7.16.0"            
+    },
+    "devDependencies": {
+      "eslint": "^8.4.1",              
+      "eslint-config-react-app": "^6.0.0", 
+      "prettier": "^2.5.1",           
+      "cross-env": "^7.0.3"             
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+  
